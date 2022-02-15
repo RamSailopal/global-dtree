@@ -1,6 +1,6 @@
 # global-dtree
 
-This repo demonstrates the ability to view M (YottaDB/Intersystems/GTm) based globals using d3 dTree
+This repo demonstrates the ability to view M (YottaDB/Intersystems/GTm) based globals using d3 dTree. The demonstration utilises YottaDB, with mg_gateway and then a apache http server, utilising Python and in particular mg_python to build a dTree JSON object used to render the dTree global image.
 
 ![Alt text](global-dtree.webp?raw=true "Global dTree")
 
