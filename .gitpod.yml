@@ -1,0 +1,6 @@
+tasks:
+  - init: |
+      echo 'TODO: build project'
+    command: |
+      cd Docker && docker-compose up
+
