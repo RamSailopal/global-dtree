@@ -36,3 +36,9 @@ To run a Gitpod with this repo:
 4) Wait till the Docker compose messages stop scrolling in the terminal and then click on the ports in the bottom right of the Gitpod window, then the globe icon next to the 8002 port. This will open another browser tab.
 5) Enter CARS for the global and then submit. The dTree chart for the global will appear.
 
+# References
+
+**dTree** - https://github.com/ErikGartner/dTree
+
+**mg_python** - https://github.com/chrisemunt/mg_python
+
