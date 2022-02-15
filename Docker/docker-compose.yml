@@ -1,0 +1,34 @@
+#
+#       AUTHOR - Raman Sailopal
+#
+version: "2"
+services:
+ yottadb:
+   hostname: yottadb
+   image: docker.io/ramb0/yottadb-gateway
+   networks:
+      - yottanet
+   volumes:
+      - "../yottaentry:/home/yotta"
+   ports:
+      - 7041:7041
+   mem_limit: 1G
+   entrypoint: /home/yotta/entrypoint.sh
+
+
+ html:
+   image: docker.io/kaw393939/apache-python-ubuntu
+   volumes:
+      - "../:/var/www/html"
+      - "../htmlentry:/home/htmlentry"
+   ports: 
+      - 8002:80
+   environment:
+      - YOTTAADR="yottadb"
+   networks:
+      - yottanet
+   entrypoint: /home/htmlentry/entrypoint.sh 
+
+networks:
+    yottanet:
+
