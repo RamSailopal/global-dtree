@@ -40,5 +40,7 @@ To run a Gitpod with this repo:
 
 **dTree** - https://github.com/ErikGartner/dTree
 
-**mg_python** - https://github.com/chrisemunt/mg_python
+**react d3-dtree** - https://github.com/bkrem/react-d3-tree
+
+**nodem** - https://github.com/dlwicksell/nodem
 
