@@ -4,7 +4,7 @@ This repo demonstrates the ability to view M (YottaDB/Intersystems/GTm) based gl
 
 ![Alt text](global-dtree.webp?raw=true "Global dTree")
 
-The following CARS global is used for the demonstation:
+The following CARS global is used for the demonstration:
 
      ^CARS("Audi","A3","White","Petrol",2020)="$12,450"
      ^CARS("Audi","A8","Grey","Petrol",2016)="$13,200"
